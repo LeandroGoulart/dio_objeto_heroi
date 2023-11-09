@@ -27,10 +27,10 @@ class Heroi {
     }
 }
 
-const gandalf = new Heroi("Gandalf", 1000, "mago");
+const mago = new Heroi("Gandalf", 1000, "mago");
 
-const kennen = new Heroi("Kennen", 135, "ninja");
+const ninja = new Heroi("Kennen", 135, "ninja");
 
-gandalf.atacar();
+mago.atacar();
 
-kennen.atacar();
+ninja.atacar();
